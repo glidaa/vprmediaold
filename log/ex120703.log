@@ -1,0 +1,125 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 01:49:30
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 01:49:29 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 180.76.5.143 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 328 234 312
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 02:52:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 02:52:16 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 78
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 03:46:56
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 03:46:56 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBMR/COMPANY.html - 80 - 180.76.5.183 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 2806 236 281
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 04:34:42
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 04:34:41 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 157.55.116.48 HTTP/1.1 msnbot/2.0b+(+http://search.msn.com/msnbot.htm) - - www.vprmedia.com 200 0 0 328 209 218
+2012-07-03 04:34:42 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /Sitemap.xml - 80 - 157.55.116.48 HTTP/1.1 msnbot/2.0b+(+http://search.msn.com/msnbot.htm) - - www.vprmedia.com 200 0 0 2879 210 218
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 05:04:41
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 05:04:41 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 66.249.72.246 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.vprmedia.com 200 0 0 309 266 15
+2012-07-03 05:04:41 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /GRAPHICS+HOUSE+WEB/VPRMEDIA2_GH.html - 80 - 66.249.72.246 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.vprmedia.com 304 0 0 212 320 62
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 06:06:13
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 06:06:13 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 157.55.18.21 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.vprmedia.com 200 0 64 0 268 140
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 07:50:12
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 07:50:11 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 46
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 09:49:35
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 09:49:34 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /GRAPHICS+HOUSE+WEB/VPRMEDIA2_GH08DV.html - 80 - 180.76.6.37 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 14320 262 796
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 10:53:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 10:53:17 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 66.249.72.246 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.vprmedia.com 200 0 0 309 266 62
+2012-07-03 10:53:17 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /Sitemap.xml - 80 - 66.249.72.246 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.vprmedia.com 200 0 0 2860 241 62
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 11:21:16
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 11:21:16 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /GRAPHICS+HOUSE+WEB/VPRMEDIA2_GH07FS.html - 80 - 100.43.83.137 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.vprmedia.com 200 0 0 14299 308 390
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 12:25:38
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 12:25:38 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 123.125.71.79 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 9947 224 1343
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 12:45:14
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 12:45:14 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 100.43.83.137 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.vprmedia.com 200 0 0 309 186 93
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 13:41:22
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 13:41:21 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 140
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 14:22:38
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 14:22:37 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /production.htm - 80 - 123.125.71.59 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 23746 238 3156
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 15:27:32
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 15:27:31 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 207.46.13.101 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.vprmedia.com 200 0 64 0 268 296
+2012-07-03 15:28:24 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /FEBDIST/FEBDIST/web-content/PDFS/carboatflyer.pdf - 80 - 207.46.13.101 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.vprmedia.com 404 0 3 1795 320 78
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 18:26:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 18:26:59 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 109
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 19:10:43
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 19:10:43 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 91.212.12.103 HTTP/1.1 Mozilla/5.0+(X11;+Linux+i686;+rv:7.0.1)+Gecko/20100101+Firefox/7.0.1 - - vprmedia.com 200 0 64 2048 283 203
+2012-07-03 19:10:44 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /7v5bmu2jxq1b7681l2/akxzzwhck/vcm70ipd/di4lesus4xzsu/327yjg6o.jdcxm - 80 - 91.212.12.103 HTTP/1.1 Mozilla/5.0+(X11;+Linux+i686;+rv:7.0.1)+Gecko/20100101+Firefox/7.0.1 - - vprmedia.com 404 0 3 1795 349 93
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 21:49:39
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 21:49:39 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBTV/index.htm - 80 - 180.76.6.35 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 176960 233 5843
+2012-07-03 21:49:45 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBTV/index.htm - 80 - 180.76.5.62 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 177019 211 5578
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-03 23:09:27
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-03 23:09:26 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /media/clear.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 404 0 64 0 321 453
+2012-07-03 23:09:27 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.google.com.au/url?sa=t&rct=j&q=video%20production%20in%20surry%20hills&source=web&cd=10&ved=0CLIBEBYwCQ&url=http%3A%2F%2Fwww.vprmedia.com%2F&ei=gHvzT7tRzJGJB93T6OAG&usg=AFQjCNFiSNuOwNxVirjeLsTheKoIKkqNgw www.vprmedia.com 200 0 0 9928 526 1578
+2012-07-03 23:09:27 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /images/VPRMEDIA2_01_03.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 2039 332 359
+2012-07-03 23:09:27 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /images/VPRMEDIA2_01_04.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 651 332 359
+2012-07-03 23:09:27 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /images/VPRMEDIA2_01_07.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 784 332 421
+2012-07-03 23:09:27 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /TEMP+EXPORT/images/VPRMEDIA2_01_09.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 9182 346 687
+2012-07-03 23:09:28 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /images/lionlogo4.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 7406 326 1343
+2012-07-03 23:09:28 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /TEMP+EXPORT/images/VPRMEDIA2_01_12.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 9504 346 500
+2012-07-03 23:09:28 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /TEMP+EXPORT/images/VPRMEDIA2_01_10.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 6616 346 1156
+2012-07-03 23:09:28 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /TEMP+EXPORT/images/VPRMEDIA2_01_11.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 6240 346 1093
+2012-07-03 23:09:28 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /img_dot_top.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 329 321 343
+2012-07-03 23:09:29 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /TEMP+EXPORT/images/VPRMEDIA2_01_14.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 10016 346 968
+2012-07-03 23:09:29 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /img_dot_bottom.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 302 324 468
+2012-07-03 23:09:30 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /media/clear.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 404 0 64 0 321 3640
+2012-07-03 23:09:36 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /images/VPRMEDIA2_01_06.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 123382 332 8500
+2012-07-03 23:09:37 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /favicon.ico - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - - www.vprmedia.com 404 0 2 1795 312 1437
+2012-07-03 23:09:38 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /client/images/VPRMEDIA2_01CLIENTS2_03-ove.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 33873 351 2453
+2012-07-03 23:11:08 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 15
+2012-07-03 23:11:29 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /ROLLOVER/images/VPRMEDIA2_01RO_11.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 64 0 343 500
+2012-07-03 23:11:32 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /ROLLOVER/images/VPRMEDIA2_01RO_10.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 64 0 343 2765
+2012-07-03 23:11:36 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /ROLLOVER/images/VPRMEDIA2_01RO_10.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 5504 343 1109
+2012-07-03 23:11:46 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /media/clear.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/aboutus.htm www.vprmedia.com 404 0 64 0 332 343
+2012-07-03 23:11:46 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /aboutus.htm - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 0 16491 347 1453
+2012-07-03 23:11:46 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /media/clear.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/aboutus.htm www.vprmedia.com 404 0 3 1795 332 328
+2012-07-03 23:11:47 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /ROLLOVER/images/VPRMEDIA2_01RO_11.gif - 80 - 114.73.119.28 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10.6;+rv:13.0)+Gecko/20100101+Firefox/13.0.1 - http://www.vprmedia.com/ www.vprmedia.com 200 0 64 0 343 2687

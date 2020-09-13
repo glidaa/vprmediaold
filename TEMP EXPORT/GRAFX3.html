@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>VPR MEDIA</title>
+	<link rel="stylesheet" href="/includes/sitewide.css" type="text/css">
+</head>
+<script language="JavaScript" src="/dhtml-bin/js_general.js"></script>
+<script language="JavaScript" src="/dhtml-bin/js_rollovers.js"></script>
+<script language="JavaScript" src="/includes/js_project.js"></script>	
+<script language="JavaScript">
+	
+	// Instructions:
+	// - Set lngRotateMax to the highest image number available
+	// - Set lngImageMax to the number of <img> tags that will be rotating
+	// - Set lngCycleTime to the number of ms's for each rotation
+	
+	var lngCycleID = 1;
+	var lngImageID = 0;
+	var lngRotateID = 0;
+	var lngRotateMax = 3;
+	var lngImageMax = 3;
+	var lngCycleTime = 5350;
+	
+	lngRotateID = lngImageMax;		//start off at the max number or else you will see repeating pictures.
+	
+	function funInit_Rotate() {
+		funInit();
+		funStartRotate();
+	}
+
+	function funStartRotate() {
+
+		var lngTargetTag = 0;
+	
+	   	//window.alert("5 seconds have elapsed since the button was clicked.");
+
+		if(lngRotateID < lngRotateMax) {
+			lngRotateID = lngRotateID + 1;
+		} else {
+			lngRotateID = 1
+			lngCycleID = lngCycleID + 1;			//lngCycleID  does not appear to be used
+		};
+		
+		// Check for duplicates; if so, try one more time to get a new one
+		lngTargetTag = rand(lngImageMax);
+		
+		do {			//randomize which picture slot will change next. This loop will make sure that the same picture slot will not change twice or more in a row.
+   			lngTargetTag = rand(lngImageMax);
+   		} 
+		while (lngTargetTag == lngImageID);
+
+		lngImageID = lngTargetTag;
+		
+		for (idx = 1; idx <= lngImageMax; idx++)		//loop through all image locations and change images at the same time
+		{
+			document.images['imgRotate' + idx].src = '/media/rotate_top/imgRotate' + idx + '/image' + lngRotateID + '.gif';
+		}
+		
+		funRecursiveTimer();
+	}
+
+	function funRecursiveTimer() {
+		tmrMain = setTimeout('funStartRotate()',lngCycleTime);
+	}
+	
+	rnd.today=new Date();
+	rnd.seed=rnd.today.getTime();
+
+	function rnd() {
+        rnd.seed = (rnd.seed*9301+49297) % 233280;
+        return rnd.seed/(233280.0);
+	}
+
+	function rand(number) {
+        return Math.ceil(rnd()*number);
+	}
+
+
+</script>
+<body onload="funInit_Rotate()" bgcolor="#CBCCD6" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+
+<table border="0" cellspacing="0" cellpadding="0" width="106%" height="100%">
+	<!-- logo -->
+	<tr height="1%">
+		<td width="40%" height="36" bgcolor="#BABBC8"><img src="/media/clear.gif" width="1" height="36"></td>
+		<td width="20%" bgcolor="#8B8EA8">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+				<tr>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="1" height="1"></td>
+					<td width="646"><div align="center"><img src="images/VPRMEDIA2_01_01.gif" width="646" height="36"></div></td>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="1" height="1"></td>
+				</tr>
+			</table>
+	  </td>
+		<td width="40%" bgcolor="#CBCCD6"><img src="/media/clear.gif" width="1" height="36"></td>
+	</tr>
+	<!-- /logo -->
+	
+	<!-- nav and main body -->
+	<tr height="1%">
+		<td width="40%" height="398" bgcolor="#666666"><img src="/media/clear.gif" width="1" height="36"></td>
+		<td width="20%" bgcolor="#FFFFFF"><div align="center"><img src="images/VPRMEDIA2_01_03.gif" width="646" height="32" border="0" usemap="#m_nav">
+		    </div>
+		  <table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+				<tr>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+					<td width="646">
+						<!-- nav -->
+						
+						<!-- /nav -->
+						
+						<!-- main body -->
+						<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1" bgcolor="#ffffff">
+							<tr>
+								<td>
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+										<tr>
+											<td><img src="images/VPRMEDIA2_01_04.gif" width="246" height="133" id="imgRotate1"></td>
+											<td><img src="/media/clear.gif" width="2" height="1"></td>
+											<td><img src="images/VPRMEDIA2_01_06.gif" width="237" height="133" id="imgRotate2"></td>
+											<td><img src="/media/clear.gif" width="2" height="1"></td>
+											<td><img src="images/VPRMEDIA2_01_07.gif" width="161" height="133" id="imgRotate3"></td>
+										</tr>
+										<tr>
+											<td colspan="5"><img src="/media/clear.gif" width="1" height="4"></td>
+										</tr>
+									</table>
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+										<tr>
+											<td colspan="5"><div align="left"><img src="images/VPRMEDIA2_01_08.gif" width="646" height="89" alt=""></div></td>
+										</tr>
+										<tr>
+										  <td><div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TELEVISION PRODUCTION','','../ROLLOVER/images/VPRMEDIA2_01RO_09.gif',1)"><img src="images/VPRMEDIA2_01_09.gif" name="TELEVISION PRODUCTION" width="129" height="82" border="0"></a></div></td>
+									      <td><div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TELEVISION PRODUCTION','','../ROLLOVER/images/VPRMEDIA2_01RO_10.gif',1)"><img src="images/VPRMEDIA2_01_10.gif" name="TELEVISION PRODUCTION" width="129" height="82" border="0"></a></div></td>
+									      <td><div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TELEVISION PRODUCTION','','../ROLLOVER/images/VPRMEDIA2_01RO_11.gif',1)"><img src="images/VPRMEDIA2_01_11.gif" name="TELEVISION PRODUCTION" width="129" height="82" border="0"></a></div></td>
+									      <td><div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TELEVISION PRODUCTION','','../ROLLOVER/images/VPRMEDIA2_01RO_12.gif',1)"><img src="images/VPRMEDIA2_01_12.gif" name="TELEVISION PRODUCTION" width="129" height="82" border="0"></a></div></td>
+									      <td><div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('TELEVISION PRODUCTION','','../ROLLOVER/images/VPRMEDIA2_01RO_14.gif',1)"><img src="images/VPRMEDIA2_01_14.gif" name="TELEVISION PRODUCTION" width="129" height="82" border="0"></a></div></td>
+									  </tr>
+										<tr>
+											<td colspan="5"><img src="/media/clear.gif" width="1" height="4"></td>
+										</tr>
+									</table>
+									
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+										<tr>
+											<td height="29" bgcolor="#8B8EA8"><img src="/media/clear.gif" width="211" height="1"><img src="../img_dot_top.gif" width="3" height="29"></td>
+										</tr>
+										<tr>
+											<td height="85" bgcolor="#4A3922">
+												<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+													<tr bgcolor="#727581">
+														<td width="214"><img src="/media/clear.gif" width="211" height="1"><img src="../img_dot_bottom.gif" width="3" height="85"></td>
+														<td width="432" bordercolor="#727581">
+															<table border="0" cellspacing="0" cellpadding="0" width="97%" align="center" height="1">
+																
+													
+																<tr>
+																	<!-- quote -->
+																	<td width="480"><font class="cssQuote">VPR MEDIA is a production and distribution company. Our history is in TV Production and distribution. We now complete market research, dvd production, television graphics and our distibution now includes  clips, music and a texture libary.</font></td>
+																	<!-- /quote -->
+																</tr>
+																
+																
+															</table>
+													  </td>
+													</tr>
+											  </table>
+											</td>
+										</tr>
+										<tr>
+											<td height="1" bgcolor="#A49C90"><img src="/media/clear.gif" width="1" height="1"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<!-- /main body -->
+						
+					</td>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+				</tr>
+		  </table>
+	  </td>
+		<td width="40%" bgcolor="#666666"><img src="/media/clear.gif" width="1" height="36"></td>
+	</tr>
+	<!-- /nav and main body -->
+	
+	<!-- footer -->
+	<tr height="98%">
+		<td bgcolor="#CBCCD6"></td>
+		<td valign="top" bgcolor="#CBCCD6">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+				<tr>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+					<td width="646" valign="top">
+						<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+							<tr>
+								<td bgcolor="#ffffff"><img src="/media/clear.gif" width="1" height="4"></td>
+							</tr>
+							<tr>
+								<td><img src="/media/clear.gif" width="1" height="4"></td>
+							</tr>
+							<tr>
+								<td align="center"><font class="cssFooter">&copy; 2005 VPR MEDIA All rights Reserved.</font></td>
+							</tr>
+						</table>
+					</td>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+				</tr>
+			</table>
+	  </td>
+		<td bgcolor="#CBCCD6"></td>
+	</tr>
+	<!-- /footer -->
+</table>
+<map name="m_nav">
+<area shape="poly" coords="611,6,641,6,641,21,611,21,611,6" href="/index.asp" >
+<area shape="poly" coords="538,6,597,6,597,21,538,21,538,6" href="/cnt_contact.asp" >
+<area shape="poly" coords="491,6,529,6,529,21,491,21,491,6" href="/cnt_news.asp" >
+<area shape="rect" coords="432,6,480,21" href="/cnt_clients.asp" >
+<area shape="rect" coords="371,6,419,21" href="/cnt_about.asp" >
+<area shape="rect" coords="309,6,357,21" href="/cnt_services.asp" >
+</map>	
+		
+</body>
+</html>
+
+						

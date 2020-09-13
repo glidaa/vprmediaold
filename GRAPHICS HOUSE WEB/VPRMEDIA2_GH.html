@@ -1,0 +1,774 @@
+<html>
+<head>
+<title>IMAGE DESIGN</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (VPRMEDIA2_GH.psd) -->
+<script runat="server">
+Sub Page_Load()
+        If Not IsPostBack Then 
+                dgName.Visible = false
+        Else
+                dgName.Visible = true
+        End If
+End Sub
+</script>
+
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+function getLayer(layerID) {
+if (document.getElementById)
+	return document.getElementById(layerID);
+else if (document.all)
+	return document.all[layerID];
+else 
+	return null;
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+ 	// -->percentLayer.innerHTML = "<font color=#ffffff><B>10/100</B></font>";   
+	VPRMEDIA2_GH_03_over = newImage("images/VPRMEDIA2_GH_03-over.gif");
+				VPRMEDIA2_GH_06_over = newImage("images/VPRMEDIA2_GH_06-over.gif");
+		VPRMEDIA2_GH_09_over = newImage("images/VPRMEDIA2_GH_09-over.gif");
+		// -->percentLayer.innerHTML = "<font color=#ffffff><B>20/100</B></font>";   
+		VPRMEDIA2_GH_13_over = newImage("images/VPRMEDIA2_GH_13-over.gif");
+		VPRMEDIA2_GH_15_over = newImage("images/VPRMEDIA2_GH_15-over.gif");
+		VPRMEDIA2_GH_17_over = newImage("images/VPRMEDIA2_GH_17-over.gif");
+		VPRMEDIA2_GH_22_over = newImage("images/VPRMEDIA2_GH_22-over.gif");
+		VPRMEDIA2_GH_25_over = newImage("images/VPRMEDIA2_GH_25-over.gif");
+		VPRMEDIA2_GH_29_over = newImage("images/VPRMEDIA2_GH_29-over.gif");
+		VPRMEDIA2_GH_Layer_40_copy_over = newImage("images/VPRMEDIA2_GH_Layer-40-copy-.gif");
+		VPRMEDIA2_GH_37_over = newImage("images/VPRMEDIA2_GH_37-over.gif");
+		VPRMEDIA2_GH_40_over = newImage("images/VPRMEDIA2_GH_40-over.gif");
+		VPRMEDIA2_GH_43_over = newImage("images/VPRMEDIA2_GH_43-over.gif");
+				VPRMEDIA2_GH01TT_03_over = newImage("images/VPRMEDIA2_GH01TT_03-over.gif");
+		VPRMEDIA2_GH01TT_11_down = newImage("images/VPRMEDIA2_GH01TT_11-down.gif");
+		VPRMEDIA2_GH01TT_13_down = newImage("images/VPRMEDIA2_GH01TT_13-down.gif");
+		VPRMEDIA2_GH01TT_15_down = newImage("images/VPRMEDIA2_GH01TT_15-down.gif");
+		VPRMEDIA2_GH01TT_11_down = newImage("images/VPRMEDIA2_GH01TT_11-over.gif");
+		VPRMEDIA2_GH01TT_13_down = newImage("images/VPRMEDIA2_GH01TT_13-over.gif");
+		VPRMEDIA2_GH01TT_15_down = newImage("images/VPRMEDIA2_GH01TT_15-over.gif");
+		VPRMEDIA2_GH02TI_03_over = newImage("images/VPRMEDIA2_GH02TI_03-over.gif");
+		VPRMEDIA2_GH02TI_11_down = newImage("images/VPRMEDIA2_GH02TI_11-down.gif");
+		VPRMEDIA2_GH02TI_13_down = newImage("images/VPRMEDIA2_GH02TI_13-down.gif");
+		VPRMEDIA2_GH02TI_15_down = newImage("images/VPRMEDIA2_GH02TI_15-down.gif");
+		// -->percentLayer.innerHTML = "<font color=#ffffff><B>20/100</B></font>";  
+		 VPRMEDIA2_GH02TI_11_down = newImage("images/VPRMEDIA2_GH02TI_11-over.gif");
+		VPRMEDIA2_GH02TI_13_down = newImage("images/VPRMEDIA2_GH02TI_13-over.gif");
+		VPRMEDIA2_GH02TI_15_down = newImage("images/VPRMEDIA2_GH02TI_15-over.gif");
+				VPRMEDIA2_GH03AS_03_over = newImage("images/VPRMEDIA2_GH03AS_03-over.gif");
+		VPRMEDIA2_GH03AS_11_down = newImage("images/VPRMEDIA2_GH03AS_11-down.gif");
+		VPRMEDIA2_GH03AS_13_down = newImage("images/VPRMEDIA2_GH03AS_13-down.gif");
+		VPRMEDIA2_GH03AS_15_down = newImage("images/VPRMEDIA2_GH03AS_15-down.gif");
+		VPRMEDIA2_GH03AS_11_down = newImage("images/VPRMEDIA2_GH03AS_11-over.gif");
+		VPRMEDIA2_GH03AS_13_down = newImage("images/VPRMEDIA2_GH03AS_13-over.gif");
+		VPRMEDIA2_GH03AS_15_down = newImage("images/VPRMEDIA2_GH03AS_15-over.gif");
+				VPRMEDIA2_GH04VW_03_over = newImage("images/VPRMEDIA2_GH04VW_03-over.gif");
+		VPRMEDIA2_GH04VW_11_down = newImage("images/VPRMEDIA2_GH04VW_11-down.gif");
+		VPRMEDIA2_GH04VW_13_down = newImage("images/VPRMEDIA2_GH04VW_13-down.gif");
+		VPRMEDIA2_GH04VW_15_down = newImage("images/VPRMEDIA2_GH04VW_15-down.gif");
+		VPRMEDIA2_GH04VW_11_down = newImage("images/VPRMEDIA2_GH04VW_11-over.gif");
+		VPRMEDIA2_GH04VW_13_down = newImage("images/VPRMEDIA2_GH04VW_13-over.gif");
+		VPRMEDIA2_GH04VW_15_down = newImage("images/VPRMEDIA2_GH04VW_15-over.gif");
+				VPRMEDIA2_GH05BG_03_over = newImage("images/VPRMEDIA2_GH05BG_03-over.gif");
+		VPRMEDIA2_GH05BG_11_down = newImage("images/VPRMEDIA2_GH05BG_11-down.gif");
+		VPRMEDIA2_GH05BG_13_down = newImage("images/VPRMEDIA2_GH05BG_13-down.gif");
+		VPRMEDIA2_GH05BG_15_down = newImage("images/VPRMEDIA2_GH05BG_15-down.gif");
+		VPRMEDIA2_GH05BG_11_down = newImage("images/VPRMEDIA2_GH05BG_11-over.gif");
+		VPRMEDIA2_GH05BG_13_down = newImage("images/VPRMEDIA2_GH05BG_13-over.gif");
+		VPRMEDIA2_GH05BG_15_down = newImage("images/VPRMEDIA2_GH05BG_15-over.gif");
+		VPRMEDIA2_GH06DS_03_over = newImage("images/VPRMEDIA2_GH06DS_03-over.gif");
+		VPRMEDIA2_GH06DS_11_down = newImage("images/VPRMEDIA2_GH06DS_11-down.gif");
+		VPRMEDIA2_GH06DS_13_down = newImage("images/VPRMEDIA2_GH06DS_13-down.gif");
+		VPRMEDIA2_GH06DS_15_down = newImage("images/VPRMEDIA2_GH06DS_15-down.gif");
+		// -->percentLayer.innerHTML = "<font color=#ffffff><B>30/100</B></font>"; 
+		  VPRMEDIA2_GH06DS_11_down = newImage("images/VPRMEDIA2_GH06DS_11-over.gif");
+		VPRMEDIA2_GH06DS_13_down = newImage("images/VPRMEDIA2_GH06DS_13-over.gif");
+		VPRMEDIA2_GH06DS_15_down = newImage("images/VPRMEDIA2_GH06DS_15-over.gif");
+			VPRMEDIA2_GH07FS_03_over = newImage("images/VPRMEDIA2_GH07FS_03-over.gif");
+		VPRMEDIA2_GH07FS_11_down = newImage("images/VPRMEDIA2_GH07FS_11-down.gif");
+		VPRMEDIA2_GH07FS_13_down = newImage("images/VPRMEDIA2_GH07FS_13-down.gif");
+		VPRMEDIA2_GH07FS_15_down = newImage("images/VPRMEDIA2_GH07FS_15-down.gif");
+		VPRMEDIA2_GH07FS_11_down = newImage("images/VPRMEDIA2_GH07FS_11-over.gif");
+		VPRMEDIA2_GH07FS_13_down = newImage("images/VPRMEDIA2_GH07FS_13-over.gif");
+		VPRMEDIA2_GH07FS_15_down = newImage("images/VPRMEDIA2_GH07FS_15-over.gif");
+				VPRMEDIA2_GH08DV_03_over = newImage("images/VPRMEDIA2_GH08DV_03-over.gif");
+		VPRMEDIA2_GH08DV_11_down = newImage("images/VPRMEDIA2_GH08DV_11-down.gif");
+		VPRMEDIA2_GH08DV_13_down = newImage("images/VPRMEDIA2_GH08DV_13-down.gif");
+		VPRMEDIA2_GH08DV_15_down = newImage("images/VPRMEDIA2_GH08DV_15-down.gif");
+		VPRMEDIA2_GH08DV_11_down = newImage("images/VPRMEDIA2_GH08DV_11-over.gif");
+		VPRMEDIA2_GH08DV_13_down = newImage("images/VPRMEDIA2_GH08DV_13-over.gif");
+		VPRMEDIA2_GH08DV_15_down = newImage("images/VPRMEDIA2_GH08DV_15-over.gif");
+	VPRMEDIA2_GH09CH_03_over = newImage("images/VPRMEDIA2_GH09CH_03-over.gif");
+		VPRMEDIA2_GH09CH_11_down = newImage("images/VPRMEDIA2_GH09CH_11-down.gif");
+		VPRMEDIA2_GH09CH_13_down = newImage("images/VPRMEDIA2_GH09CH_13-down.gif");
+		VPRMEDIA2_GH09CH_15_down = newImage("images/VPRMEDIA2_GH09CH_15-down.gif");
+		VPRMEDIA2_GH09CH_11_down = newImage("images/VPRMEDIA2_GH09CH_11-over.gif");
+		VPRMEDIA2_GH09CH_13_down = newImage("images/VPRMEDIA2_GH09CH_13-over.gif");
+		VPRMEDIA2_GH09CH_15_down = newImage("images/VPRMEDIA2_GH09CH_15-over.gif");
+				VPRMEDIA2_GH103D_03_over = newImage("images/VPRMEDIA2_GH103D_03-over.gif");
+		VPRMEDIA2_GH103D_11_down = newImage("images/VPRMEDIA2_GH103D_11-down.gif");
+		VPRMEDIA2_GH103D_13_down = newImage("images/VPRMEDIA2_GH103D_13-down.gif");
+		VPRMEDIA2_GH103D_15_down = newImage("images/VPRMEDIA2_GH103D_15-down.gif");
+		VPRMEDIA2_GH103D_11_down = newImage("images/VPRMEDIA2_GH103D_11-over.gif");
+		VPRMEDIA2_GH103D_13_down = newImage("images/VPRMEDIA2_GH103D_13-over.gif");
+		VPRMEDIA2_GH103D_15_down = newImage("images/VPRMEDIA2_GH103D_15-over.gif");
+				VPRMEDIA2_GH11CO_03_over = newImage("images/VPRMEDIA2_GH11CO_03-over.gif");
+		VPRMEDIA2_GH11CO_11_down = newImage("images/VPRMEDIA2_GH11CO_11-down.gif");
+		VPRMEDIA2_GH11CO_13_down = newImage("images/VPRMEDIA2_GH11CO_13-down.gif");
+		VPRMEDIA2_GH11CO_15_down = newImage("images/VPRMEDIA2_GH11CO_15-down.gif");
+		VPRMEDIA2_GH11CO_11_down = newImage("images/VPRMEDIA2_GH11CO_11-over.gif");
+		VPRMEDIA2_GH11CO_13_down = newImage("images/VPRMEDIA2_GH11CO_13-over.gif");
+		// -->percentLayer.innerHTML = "<font color=#ffffff><B>40/100</B></font>"; 
+		  VPRMEDIA2_GH11CO_15_down = newImage("images/VPRMEDIA2_GH11CO_15-over.gif");
+				VPRMEDIA2_GH12AD_03_over = newImage("images/VPRMEDIA2_GH12AD_03-over.gif");
+		VPRMEDIA2_GH12AD_11_down = newImage("images/VPRMEDIA2_GH12AD_11-down.gif");
+		VPRMEDIA2_GH12AD_13_down = newImage("images/VPRMEDIA2_GH12AD_13-down.gif");
+		VPRMEDIA2_GH12AD_15_down = newImage("images/VPRMEDIA2_GH12AD_15-down.gif");
+		VPRMEDIA2_GH12AD_11_down = newImage("images/VPRMEDIA2_GH12AD_11-over.gif");
+		VPRMEDIA2_GH12AD_13_down = newImage("images/VPRMEDIA2_GH12AD_13-over.gif");
+		VPRMEDIA2_GH12AD_15_down = newImage("images/VPRMEDIA2_GH12AD_15-over.gif");
+		VPRMEDIA2_GH12AD_15_down = newImage("images/VPRMEDIA2_GH12AD_15-over.gif");
+
+
+VPRMEDIA2_GH01TT_01 = newImage("images/VPRMEDIA2_GH01TT_01.gif");
+VPRMEDIA2_GH01TT_02 = newImage("images/VPRMEDIA2_GH01TT_02.gif");
+VPRMEDIA2_GH01TT_03 = newImage("images/VPRMEDIA2_GH01TT_03.gif");
+VPRMEDIA2_GH01TT_04 = newImage("images/VPRMEDIA2_GH01TT_04.gif");
+VPRMEDIA2_GH01TT_05 = newImage("images/VPRMEDIA2_GH01TT_05.gif");
+VPRMEDIA2_GH01TT_06 = newImage("images/VPRMEDIA2_GH01TT_06.gif");
+VPRMEDIA2_GH01TT_07 = newImage("images/VPRMEDIA2_GH01TT_07.gif");
+VPRMEDIA2_GH01TT_08 = newImage("images/VPRMEDIA2_GH01TT_08.gif");
+VPRMEDIA2_GH01TT_09 = newImage("images/VPRMEDIA2_GH01TT_09.gif");
+VPRMEDIA2_GH01TT_10 = newImage("images/VPRMEDIA2_GH01TT_10.gif");
+VPRMEDIA2_GH01TT_11 = newImage("images/VPRMEDIA2_GH01TT_11.gif");
+VPRMEDIA2_GH01TT_12 = newImage("images/VPRMEDIA2_GH01TT_12.gif");
+VPRMEDIA2_GH01TT_13 = newImage("images/VPRMEDIA2_GH01TT_13.gif");
+VPRMEDIA2_GH01TT_14 = newImage("images/VPRMEDIA2_GH01TT_14.gif");
+VPRMEDIA2_GH01TT_15 = newImage("images/VPRMEDIA2_GH01TT_15.gif");
+VPRMEDIA2_GH01TT_16 = newImage("images/VPRMEDIA2_GH01TT_16.gif");
+VPRMEDIA2_GH01TT_17 = newImage("images/VPRMEDIA2_GH01TT_17.gif");
+VPRMEDIA2_GH01TT_18 = newImage("images/VPRMEDIA2_GH01TT_18.gif");
+VPRMEDIA2_GH01TT_19 = newImage("images/VPRMEDIA2_GH01TT_19.gif");
+VPRMEDIA2_GH02TI_01 = newImage("images/VPRMEDIA2_GH02TI_01.gif");
+VPRMEDIA2_GH02TI_02 = newImage("images/VPRMEDIA2_GH02TI_02.gif");
+VPRMEDIA2_GH02TI_03 = newImage("images/VPRMEDIA2_GH02TI_03.gif");
+VPRMEDIA2_GH02TI_04 = newImage("images/VPRMEDIA2_GH02TI_04.gif");
+VPRMEDIA2_GH02TI_05 = newImage("images/VPRMEDIA2_GH02TI_05.gif");
+VPRMEDIA2_GH02TI_06 = newImage("images/VPRMEDIA2_GH02TI_06.gif");
+VPRMEDIA2_GH02TI_07 = newImage("images/VPRMEDIA2_GH02TI_07.gif");
+VPRMEDIA2_GH02TI_08 = newImage("images/VPRMEDIA2_GH02TI_08.gif");
+VPRMEDIA2_GH02TI_09 = newImage("images/VPRMEDIA2_GH02TI_09.gif");
+VPRMEDIA2_GH02TI_10 = newImage("images/VPRMEDIA2_GH02TI_10.gif");
+VPRMEDIA2_GH02TI_11 = newImage("images/VPRMEDIA2_GH02TI_11.gif");
+// -->percentLayer.innerHTML = "<font color=#ffffff><B>50/100</B></font>";   
+VPRMEDIA2_GH02TI_12 = newImage("images/VPRMEDIA2_GH02TI_12.gif");
+VPRMEDIA2_GH02TI_13 = newImage("images/VPRMEDIA2_GH02TI_13.gif");
+VPRMEDIA2_GH02TI_14 = newImage("images/VPRMEDIA2_GH02TI_14.gif");
+VPRMEDIA2_GH02TI_15 = newImage("images/VPRMEDIA2_GH02TI_15.gif");
+VPRMEDIA2_GH02TI_16 = newImage("images/VPRMEDIA2_GH02TI_16.gif");
+VPRMEDIA2_GH02TI_17 = newImage("images/VPRMEDIA2_GH02TI_17.gif");
+VPRMEDIA2_GH02TI_18 = newImage("images/VPRMEDIA2_GH02TI_18.gif");
+VPRMEDIA2_GH02TI_19 = newImage("images/VPRMEDIA2_GH02TI_19.gif");
+VPRMEDIA2_GH03AS_01 = newImage("images/VPRMEDIA2_GH03AS_01.gif");
+VPRMEDIA2_GH03AS_02 = newImage("images/VPRMEDIA2_GH03AS_02.gif");
+VPRMEDIA2_GH03AS_03 = newImage("images/VPRMEDIA2_GH03AS_03.gif");
+VPRMEDIA2_GH03AS_04 = newImage("images/VPRMEDIA2_GH03AS_04.gif");
+VPRMEDIA2_GH03AS_05 = newImage("images/VPRMEDIA2_GH03AS_05.gif");
+VPRMEDIA2_GH03AS_06 = newImage("images/VPRMEDIA2_GH03AS_06.gif");
+VPRMEDIA2_GH03AS_07 = newImage("images/VPRMEDIA2_GH03AS_07.gif");
+VPRMEDIA2_GH03AS_08 = newImage("images/VPRMEDIA2_GH03AS_08.gif");
+VPRMEDIA2_GH03AS_09 = newImage("images/VPRMEDIA2_GH03AS_09.gif");
+VPRMEDIA2_GH03AS_10 = newImage("images/VPRMEDIA2_GH03AS_10.gif");
+
+VPRMEDIA2_GH03AS_15 = newImage("images/VPRMEDIA2_GH03AS_15.gif");
+VPRMEDIA2_GH03AS_16 = newImage("images/VPRMEDIA2_GH03AS_16.gif");
+VPRMEDIA2_GH03AS_17 = newImage("images/VPRMEDIA2_GH03AS_17.gif");
+VPRMEDIA2_GH03AS_18 = newImage("images/VPRMEDIA2_GH03AS_18.gif");
+VPRMEDIA2_GH03AS_19 = newImage("images/VPRMEDIA2_GH03AS_19.gif");
+VPRMEDIA2_GH04VW_01 = newImage("images/VPRMEDIA2_GH04VW_01.gif");
+VPRMEDIA2_GH04VW_02 = newImage("images/VPRMEDIA2_GH04VW_02.gif");
+VPRMEDIA2_GH04VW_03 = newImage("images/VPRMEDIA2_GH04VW_03.gif");
+VPRMEDIA2_GH04VW_04 = newImage("images/VPRMEDIA2_GH04VW_04.gif");
+VPRMEDIA2_GH04VW_05 = newImage("images/VPRMEDIA2_GH04VW_05.gif");
+VPRMEDIA2_GH04VW_06 = newImage("images/VPRMEDIA2_GH04VW_06.gif");
+VPRMEDIA2_GH04VW_07 = newImage("images/VPRMEDIA2_GH04VW_07.gif");
+VPRMEDIA2_GH04VW_08 = newImage("images/VPRMEDIA2_GH04VW_08.gif");
+VPRMEDIA2_GH04VW_09 = newImage("images/VPRMEDIA2_GH04VW_09.gif");
+VPRMEDIA2_GH04VW_10 = newImage("images/VPRMEDIA2_GH04VW_10.gif");
+
+VPRMEDIA2_GH04VW_15 = newImage("images/VPRMEDIA2_GH04VW_15.gif");
+VPRMEDIA2_GH04VW_16 = newImage("images/VPRMEDIA2_GH04VW_16.gif");
+VPRMEDIA2_GH04VW_17 = newImage("images/VPRMEDIA2_GH04VW_17.gif");
+VPRMEDIA2_GH04VW_18 = newImage("images/VPRMEDIA2_GH04VW_18.gif");
+VPRMEDIA2_GH04VW_19 = newImage("images/VPRMEDIA2_GH04VW_19.gif");
+VPRMEDIA2_GH05BG_01 = newImage("images/VPRMEDIA2_GH05BG_01.gif");
+VPRMEDIA2_GH05BG_02 = newImage("images/VPRMEDIA2_GH05BG_02.gif");
+VPRMEDIA2_GH05BG_03 = newImage("images/VPRMEDIA2_GH05BG_03.gif");
+VPRMEDIA2_GH05BG_04 = newImage("images/VPRMEDIA2_GH05BG_04.gif");
+VPRMEDIA2_GH05BG_05 = newImage("images/VPRMEDIA2_GH05BG_05.gif");
+VPRMEDIA2_GH05BG_06 = newImage("images/VPRMEDIA2_GH05BG_06.gif");
+VPRMEDIA2_GH05BG_07 = newImage("images/VPRMEDIA2_GH05BG_07.gif");
+VPRMEDIA2_GH05BG_08 = newImage("images/VPRMEDIA2_GH05BG_08.gif");
+VPRMEDIA2_GH05BG_09 = newImage("images/VPRMEDIA2_GH05BG_09.gif");
+VPRMEDIA2_GH05BG_10 = newImage("images/VPRMEDIA2_GH05BG_10.gif");
+VPRMEDIA2_GH05BG_11 = newImage("images/VPRMEDIA2_GH05BG_11.gif");
+VPRMEDIA2_GH05BG_12 = newImage("images/VPRMEDIA2_GH05BG_12.gif");
+
+VPRMEDIA2_GH05BG_13 = newImage("images/VPRMEDIA2_GH05BG_13.gif");
+VPRMEDIA2_GH05BG_14 = newImage("images/VPRMEDIA2_GH05BG_14.gif");
+
+VPRMEDIA2_GH05BG_15 = newImage("images/VPRMEDIA2_GH05BG_15.gif");
+VPRMEDIA2_GH05BG_16 = newImage("images/VPRMEDIA2_GH05BG_16.gif");
+VPRMEDIA2_GH05BG_17 = newImage("images/VPRMEDIA2_GH05BG_17.gif");
+VPRMEDIA2_GH05BG_18 = newImage("images/VPRMEDIA2_GH05BG_18.gif");
+VPRMEDIA2_GH05BG_19 = newImage("images/VPRMEDIA2_GH05BG_19.gif");
+VPRMEDIA2_GH06DS_01 = newImage("images/VPRMEDIA2_GH06DS_01.gif");
+// -->percentLayer.innerHTML = "<font color=#ffffff><B>60/100</B></font>";  
+VPRMEDIA2_GH06DS_02 = newImage("images/VPRMEDIA2_GH06DS_02.gif");
+VPRMEDIA2_GH06DS_03 = newImage("images/VPRMEDIA2_GH06DS_03.gif");
+VPRMEDIA2_GH06DS_04 = newImage("images/VPRMEDIA2_GH06DS_04.gif");
+VPRMEDIA2_GH06DS_05 = newImage("images/VPRMEDIA2_GH06DS_05.gif");
+VPRMEDIA2_GH06DS_06 = newImage("images/VPRMEDIA2_GH06DS_06.gif");
+VPRMEDIA2_GH06DS_07 = newImage("images/VPRMEDIA2_GH06DS_07.gif");
+VPRMEDIA2_GH06DS_08 = newImage("images/VPRMEDIA2_GH06DS_08.gif");
+VPRMEDIA2_GH06DS_09 = newImage("images/VPRMEDIA2_GH06DS_09.gif");
+VPRMEDIA2_GH06DS_10 = newImage("images/VPRMEDIA2_GH06DS_10.gif");
+
+VPRMEDIA2_GH06DS_11 = newImage("images/VPRMEDIA2_GH06DS_11.gif");
+VPRMEDIA2_GH06DS_12 = newImage("images/VPRMEDIA2_GH06DS_12.gif");
+
+VPRMEDIA2_GH06DS_13 = newImage("images/VPRMEDIA2_GH06DS_13.gif");
+VPRMEDIA2_GH06DS_14 = newImage("images/VPRMEDIA2_GH06DS_14.gif");
+
+VPRMEDIA2_GH06DS_15 = newImage("images/VPRMEDIA2_GH06DS_15.gif");
+VPRMEDIA2_GH06DS_16 = newImage("images/VPRMEDIA2_GH06DS_16.gif");
+VPRMEDIA2_GH06DS_17 = newImage("images/VPRMEDIA2_GH06DS_17.gif");
+VPRMEDIA2_GH06DS_18 = newImage("images/VPRMEDIA2_GH06DS_18.gif");
+VPRMEDIA2_GH06DS_19 = newImage("images/VPRMEDIA2_GH06DS_19.gif");
+VPRMEDIA2_GH07FS_01 = newImage("images/VPRMEDIA2_GH07FS_01.gif");
+VPRMEDIA2_GH07FS_02 = newImage("images/VPRMEDIA2_GH07FS_02.gif");
+VPRMEDIA2_GH07FS_03 = newImage("images/VPRMEDIA2_GH07FS_03.gif");
+VPRMEDIA2_GH07FS_04 = newImage("images/VPRMEDIA2_GH07FS_04.gif");
+VPRMEDIA2_GH07FS_05 = newImage("images/VPRMEDIA2_GH07FS_05.gif");
+VPRMEDIA2_GH07FS_06 = newImage("images/VPRMEDIA2_GH07FS_06.gif");
+VPRMEDIA2_GH07FS_07 = newImage("images/VPRMEDIA2_GH07FS_07.gif");
+VPRMEDIA2_GH07FS_08 = newImage("images/VPRMEDIA2_GH07FS_08.gif");
+VPRMEDIA2_GH07FS_09 = newImage("images/VPRMEDIA2_GH07FS_09.gif");
+VPRMEDIA2_GH07FS_10 = newImage("images/VPRMEDIA2_GH07FS_10.gif");
+VPRMEDIA2_GH07FS_11 = newImage("images/VPRMEDIA2_GH07FS_11.gif");
+VPRMEDIA2_GH07FS_12 = newImage("images/VPRMEDIA2_GH07FS_12.gif");
+VPRMEDIA2_GH07FS_15 = newImage("images/VPRMEDIA2_GH07FS_15.gif");
+VPRMEDIA2_GH07FS_16 = newImage("images/VPRMEDIA2_GH07FS_16.gif");
+VPRMEDIA2_GH07FS_17 = newImage("images/VPRMEDIA2_GH07FS_17.gif");
+VPRMEDIA2_GH07FS_18 = newImage("images/VPRMEDIA2_GH07FS_18.gif");
+VPRMEDIA2_GH07FS_19 = newImage("images/VPRMEDIA2_GH07FS_19.gif");
+VPRMEDIA2_GH08DV_01 = newImage("images/VPRMEDIA2_GH08DV_01.gif");
+VPRMEDIA2_GH08DV_02 = newImage("images/VPRMEDIA2_GH08DV_02.gif");
+VPRMEDIA2_GH08DV_03 = newImage("images/VPRMEDIA2_GH08DV_03.gif");
+VPRMEDIA2_GH08DV_04 = newImage("images/VPRMEDIA2_GH08DV_04.gif");
+VPRMEDIA2_GH08DV_05 = newImage("images/VPRMEDIA2_GH08DV_05.gif");
+VPRMEDIA2_GH08DV_06 = newImage("images/VPRMEDIA2_GH08DV_06.gif");
+VPRMEDIA2_GH08DV_07 = newImage("images/VPRMEDIA2_GH08DV_07.gif");
+VPRMEDIA2_GH08DV_08 = newImage("images/VPRMEDIA2_GH08DV_08.gif");
+VPRMEDIA2_GH08DV_09 = newImage("images/VPRMEDIA2_GH08DV_09.gif");
+VPRMEDIA2_GH08DV_10 = newImage("images/VPRMEDIA2_GH08DV_10.gif");
+VPRMEDIA2_GH08DV_13 = newImage("images/VPRMEDIA2_GH08DV_13.gif");
+VPRMEDIA2_GH08DV_14 = newImage("images/VPRMEDIA2_GH08DV_14.gif");
+VPRMEDIA2_GH08DV_15 = newImage("images/VPRMEDIA2_GH08DV_15.gif");
+VPRMEDIA2_GH08DV_16 = newImage("images/VPRMEDIA2_GH08DV_16.gif");
+VPRMEDIA2_GH08DV_17 = newImage("images/VPRMEDIA2_GH08DV_17.gif");
+VPRMEDIA2_GH08DV_18 = newImage("images/VPRMEDIA2_GH08DV_18.gif");
+VPRMEDIA2_GH08DV_19 = newImage("images/VPRMEDIA2_GH08DV_19.gif");
+VPRMEDIA2_GH09CH_01 = newImage("images/VPRMEDIA2_GH09CH_01.gif");
+VPRMEDIA2_GH09CH_02 = newImage("images/VPRMEDIA2_GH09CH_02.gif");
+VPRMEDIA2_GH09CH_03 = newImage("images/VPRMEDIA2_GH09CH_03.gif");
+VPRMEDIA2_GH09CH_04 = newImage("images/VPRMEDIA2_GH09CH_04.gif");
+VPRMEDIA2_GH09CH_05 = newImage("images/VPRMEDIA2_GH09CH_05.gif");
+VPRMEDIA2_GH09CH_06 = newImage("images/VPRMEDIA2_GH09CH_06.gif");
+VPRMEDIA2_GH09CH_07 = newImage("images/VPRMEDIA2_GH09CH_07.gif");
+VPRMEDIA2_GH09CH_08 = newImage("images/VPRMEDIA2_GH09CH_08.gif");
+VPRMEDIA2_GH09CH_09 = newImage("images/VPRMEDIA2_GH09CH_09.gif");
+// -->percentLayer.innerHTML = "<font color=#ffffff><B>70/100</B></font>";  
+ VPRMEDIA2_GH09CH_10 = newImage("images/VPRMEDIA2_GH09CH_10.gif");
+VPRMEDIA2_GH09CH_11 = newImage("images/VPRMEDIA2_GH09CH_11.gif");
+VPRMEDIA2_GH09CH_12 = newImage("images/VPRMEDIA2_GH09CH_12.gif");
+VPRMEDIA2_GH09CH_13 = newImage("images/VPRMEDIA2_GH09CH_13.gif");
+VPRMEDIA2_GH09CH_14 = newImage("images/VPRMEDIA2_GH09CH_14.gif");
+VPRMEDIA2_GH09CH_15 = newImage("images/VPRMEDIA2_GH09CH_15.gif");
+VPRMEDIA2_GH09CH_16 = newImage("images/VPRMEDIA2_GH09CH_16.gif");
+VPRMEDIA2_GH09CH_17 = newImage("images/VPRMEDIA2_GH09CH_17.gif");
+VPRMEDIA2_GH09CH_18 = newImage("images/VPRMEDIA2_GH09CH_18.gif");
+VPRMEDIA2_GH09CH_19 = newImage("images/VPRMEDIA2_GH09CH_19.gif");
+VPRMEDIA2_GH11CO_01 = newImage("images/VPRMEDIA2_GH11CO_01.gif");
+VPRMEDIA2_GH11CO_02 = newImage("images/VPRMEDIA2_GH11CO_02.gif");
+VPRMEDIA2_GH11CO_03 = newImage("images/VPRMEDIA2_GH11CO_03.gif");
+VPRMEDIA2_GH11CO_04 = newImage("images/VPRMEDIA2_GH11CO_04.gif");
+VPRMEDIA2_GH11CO_05 = newImage("images/VPRMEDIA2_GH11CO_05.gif");
+VPRMEDIA2_GH11CO_06 = newImage("images/VPRMEDIA2_GH11CO_06.gif");
+VPRMEDIA2_GH11CO_07 = newImage("images/VPRMEDIA2_GH11CO_07.gif");
+VPRMEDIA2_GH11CO_08 = newImage("images/VPRMEDIA2_GH11CO_08.gif");
+VPRMEDIA2_GH11CO_09 = newImage("images/VPRMEDIA2_GH11CO_09.gif");
+VPRMEDIA2_GH11CO_10 = newImage("images/VPRMEDIA2_GH11CO_10.gif");
+VPRMEDIA2_GH11CO_11 = newImage("images/VPRMEDIA2_GH11CO_11.gif");
+VPRMEDIA2_GH11CO_12 = newImage("images/VPRMEDIA2_GH11CO_12.gif");
+VPRMEDIA2_GH11CO_13 = newImage("images/VPRMEDIA2_GH11CO_13.gif");
+VPRMEDIA2_GH11CO_14 = newImage("images/VPRMEDIA2_GH11CO_14.gif");
+VPRMEDIA2_GH11CO_15 = newImage("images/VPRMEDIA2_GH11CO_15.gif");
+VPRMEDIA2_GH11CO_16 = newImage("images/VPRMEDIA2_GH11CO_16.gif");
+VPRMEDIA2_GH11CO_17 = newImage("images/VPRMEDIA2_GH11CO_17.gif");
+VPRMEDIA2_GH11CO_18 = newImage("images/VPRMEDIA2_GH11CO_18.gif");
+VPRMEDIA2_GH11CO_19 = newImage("images/VPRMEDIA2_GH11CO_19.gif");
+VPRMEDIA2_GH12AD_01 = newImage("images/VPRMEDIA2_GH12AD_01.gif");
+VPRMEDIA2_GH12AD_02 = newImage("images/VPRMEDIA2_GH12AD_02.gif");
+VPRMEDIA2_GH12AD_03 = newImage("images/VPRMEDIA2_GH12AD_03.gif");
+VPRMEDIA2_GH12AD_04 = newImage("images/VPRMEDIA2_GH12AD_04.gif");
+VPRMEDIA2_GH12AD_05 = newImage("images/VPRMEDIA2_GH12AD_05.gif");
+VPRMEDIA2_GH12AD_06 = newImage("images/VPRMEDIA2_GH12AD_06.gif");
+VPRMEDIA2_GH12AD_07 = newImage("images/VPRMEDIA2_GH12AD_07.gif");
+VPRMEDIA2_GH12AD_08 = newImage("images/VPRMEDIA2_GH12AD_08.gif");
+VPRMEDIA2_GH12AD_09 = newImage("images/VPRMEDIA2_GH12AD_09.gif");
+VPRMEDIA2_GH12AD_10 = newImage("images/VPRMEDIA2_GH12AD_10.gif");
+VPRMEDIA2_GH12AD_15 = newImage("images/VPRMEDIA2_GH12AD_15.gif");
+VPRMEDIA2_GH12AD_16 = newImage("images/VPRMEDIA2_GH12AD_16.gif");
+VPRMEDIA2_GH12AD_17 = newImage("images/VPRMEDIA2_GH12AD_17.gif");
+VPRMEDIA2_GH12AD_18 = newImage("images/VPRMEDIA2_GH12AD_18.gif");
+VPRMEDIA2_GH12AD_19 = newImage("images/VPRMEDIA2_GH12AD_19.gif");
+// -->percentLayer.innerHTML = "<font color=#ffffff><B>80/100</B></font>";  
+ VPRMEDIA2_GH103D_01 = newImage("images/VPRMEDIA2_GH103D_01.gif");
+VPRMEDIA2_GH103D_02 = newImage("images/VPRMEDIA2_GH103D_02.gif");
+VPRMEDIA2_GH103D_04 = newImage("images/VPRMEDIA2_GH103D_04.gif");
+VPRMEDIA2_GH103D_05 = newImage("images/VPRMEDIA2_GH103D_05.gif");
+VPRMEDIA2_GH103D_06 = newImage("images/VPRMEDIA2_GH103D_06.gif");
+VPRMEDIA2_GH103D_07 = newImage("images/VPRMEDIA2_GH103D_07.gif");
+VPRMEDIA2_GH103D_08 = newImage("images/VPRMEDIA2_GH103D_08.gif");
+VPRMEDIA2_GH103D_09 = newImage("images/VPRMEDIA2_GH103D_09.gif");
+VPRMEDIA2_GH103D_10 = newImage("images/VPRMEDIA2_GH103D_10.gif");
+VPRMEDIA2_GH103D_15 = newImage("images/VPRMEDIA2_GH103D_15.gif");
+// -->percentLayer.innerHTML = "<font color=#BBBB00><B>90/100</B></font>";  
+ VPRMEDIA2_GH103D_16 = newImage("images/VPRMEDIA2_GH103D_16.gif");
+VPRMEDIA2_GH103D_17 = newImage("images/VPRMEDIA2_GH103D_17.gif");
+VPRMEDIA2_GH103D_18 = newImage("images/VPRMEDIA2_GH103D_18.gif");
+VPRMEDIA2_GH103D_19 = newImage("images/VPRMEDIA2_GH103D_19.gif");
+// -->percentLayer.innerHTML = "";  
+
+ VPRMEDIA2_GH_15 = newImage("images/VPRMEDIA2_GH_15.gif");
+changeImages('VPRMEDIA2_GH_15', 'images/VPRMEDIA2_GH_15.gif');
+		preloadFlag = true;
+	}
+
+}
+
+// -->
+</script>
+<!-- End Preload Script -->
+</head>
+<body bgcolor="#CECED6" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages(); changeImages('VPRMEDIA2_GH_15', 'images/VPRMEDIA2_GH_15.gif');">
+<!-- ImageReady Slices (VPRMEDIA2_GH.psd) -->
+<table border="0" cellspacing="0" cellpadding="0" width="106%" height="100%">
+	<!-- logo -->
+	<tr height="1%">
+		<td width="40%" height="36" bgcolor="#BABBC8"><img src="/media/clear.gif" width="1" height="36"></td>
+		<td width="20%" bgcolor="#8B8EA8">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+				<tr>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="1" height="1"></td>
+					<td width="646"><div align="center"><a href="../index.htm"><img src="images/VPRMEDIA2_01_01.gif" width="646" height="36" border="0"></a></div></td>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="1" height="1"></td>
+				</tr>
+			</table>
+	  </td>
+		<td width="40%" bgcolor="#CBCCD6"><img src="/media/clear.gif" width="1" height="36"></td>
+	</tr>
+	<!-- /logo -->
+	
+	<!-- nav and main body -->
+	<tr height="1%">
+		<td width="40%" height="398" bgcolor="#333333"><img src="/media/clear.gif" width="1" height="36"></td>
+		<td width="20%" bordercolor="2" bgcolor="#FFFFFF"><div align="center"><img src="images/VPRMEDIA2_01_03.gif" width="646" height="32" border="0" usemap="#m_nav">
+		    </div>
+		  <table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+				<tr>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+					<td width="646">
+						<!-- nav -->
+						
+						<!-- /nav -->
+						<table width="647" height="426" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000" id="Table_01">
+	<tr>
+		<td colspan="19">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="23" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="10">&nbsp;			</td>
+		<td rowspan="2">
+			<a href="VPRMEDIA2_GH01TT.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_03', 'images/VPRMEDIA2_GH_03-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_03', 'images/VPRMEDIA2_GH_03.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_03', 'images/VPRMEDIA2_GH_03-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_03', 'images/VPRMEDIA2_GH_03-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_03" src="images/VPRMEDIA2_GH_03.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td colspan="8" bgcolor="#000000">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="31" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="5" rowspan="2">&nbsp;			</td>
+		<td colspan="4" rowspan="2">
+			<a href="VPRMEDIA2_GH12AD.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_06', 'images/VPRMEDIA2_GH_06-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_06', 'images/VPRMEDIA2_GH_06.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_06', 'images/VPRMEDIA2_GH_06-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_06', 'images/VPRMEDIA2_GH_06-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_06" src="images/VPRMEDIA2_GH_06.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td rowspan="2">
+			<img src="images/VPRMEDIA2_GH_07.gif" width="9" height="52" alt=""></td>
+		<td rowspan="2">
+			<img src="images/VPRMEDIA2_GH_08.gif" width="4" height="52" alt=""></td>
+		<td colspan="3" rowspan="2">
+			<a href="VPRMEDIA2_GH02TI.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_09', 'images/VPRMEDIA2_GH_09-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_09', 'images/VPRMEDIA2_GH_09.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_09', 'images/VPRMEDIA2_GH_09-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_09', 'images/VPRMEDIA2_GH_09-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_09" src="images/VPRMEDIA2_GH_09.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td colspan="4" rowspan="2">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="21" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/VPRMEDIA2_GH_11.gif" width="106" height="31" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="31" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2">&nbsp;			</td>
+		<td colspan="5">
+			<a href="VPRMEDIA2_GH11CO.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_13', 'images/VPRMEDIA2_GH_13-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_13', 'images/VPRMEDIA2_GH_13.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_13', 'images/VPRMEDIA2_GH_13-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_13', 'images/VPRMEDIA2_GH_13-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_13" src="images/VPRMEDIA2_GH_13.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td rowspan="9">
+			<img src="images/VPRMEDIA2_GH_14.gif" width="53" height="191" alt=""></td>
+		<td colspan="5" rowspan="8">
+			<a href="VPRMEDIA2_GH11CO.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_15', 'images/VPRMEDIA2_GH_15-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_15', 'images/VPRMEDIA2_GH_15.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_15', 'images/VPRMEDIA2_GH_15-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_15', 'images/VPRMEDIA2_GH_15-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_15" src="images/VPRMEDIA2_GH_15.gif" width="200" height="190" border="0" alt=""></a></td>
+		<td rowspan="8">
+			<img src="images/VPRMEDIA2_GH_16.gif" width="31" height="190" alt=""></td>
+		<td colspan="3">
+			<a href="VPRMEDIA2_GH03AS.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_17', 'images/VPRMEDIA2_GH_17-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_17', 'images/VPRMEDIA2_GH_17.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_17', 'images/VPRMEDIA2_GH_17-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_17', 'images/VPRMEDIA2_GH_17-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_17" src="images/VPRMEDIA2_GH_17.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td colspan="2" rowspan="2">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="52" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<img src="images/VPRMEDIA2_GH_19.gif" width="106" height="16" alt=""></td>
+		<td colspan="3">
+			<img src="images/VPRMEDIA2_GH_20.gif" width="106" height="16" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="16" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="12">&nbsp;			</td>
+		<td colspan="3">
+			<a href="VPRMEDIA2_GH02TI.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_22', 'images/VPRMEDIA2_GH_22-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_22', 'images/VPRMEDIA2_GH_22.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_22', 'images/VPRMEDIA2_GH_22-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_22', 'images/VPRMEDIA2_GH_22-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_22" src="images/VPRMEDIA2_GH_22.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td colspan="3" rowspan="3">
+			<img src="images/VPRMEDIA2_GH_23.gif" width="45" height="71" alt=""></td>
+		<td colspan="2" rowspan="2">
+			<img src="images/VPRMEDIA2_GH_24.gif" width="56" height="68" alt=""></td>
+		<td colspan="2">
+			<a href="VPRMEDIA2_GH04VW.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_25', 'images/VPRMEDIA2_GH_25-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_25', 'images/VPRMEDIA2_GH_25.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_25', 'images/VPRMEDIA2_GH_25-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_25', 'images/VPRMEDIA2_GH_25-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_25" src="images/VPRMEDIA2_GH_25.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td rowspan="12">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="52" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="2">
+			<img src="images/VPRMEDIA2_GH_27.gif" width="106" height="19" alt=""></td>
+		<td colspan="2">
+			<img src="images/VPRMEDIA2_GH_28.gif" width="106" height="16" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="16" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="3">
+			<a href="VPRMEDIA2_GH05BG.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_29', 'images/VPRMEDIA2_GH_29-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_29', 'images/VPRMEDIA2_GH_29.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_29', 'images/VPRMEDIA2_GH_29-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_29', 'images/VPRMEDIA2_GH_29-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_29" src="images/VPRMEDIA2_GH_29.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td rowspan="10">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="3" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="9">
+			<img src="images/VPRMEDIA2_GH_31.gif" width="48" height="180" alt=""></td>
+		<td colspan="3">
+			<a href="VPRMEDIA2_GH09CH.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_Layer_40_copy', 'images/VPRMEDIA2_GH_Layer-40-copy-.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_Layer_40_copy', 'images/VPRMEDIA2_GH_Layer-40-copy.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_Layer_40_copy', 'images/VPRMEDIA2_GH_Layer-40-copy-.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_Layer_40_copy', 'images/VPRMEDIA2_GH_Layer-40-copy-.gif'); return true;">
+				<img name="VPRMEDIA2_GH_Layer_40_copy" src="images/VPRMEDIA2_GH_Layer-40-copy.gif" width="100" height="46" border="0" alt=""></a></td>
+		<td rowspan="4">
+			<img src="images/VPRMEDIA2_GH_33.gif" width="3" height="52" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="46" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="3">
+			<img src="images/VPRMEDIA2_GH_34.gif" width="100" height="6" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="3" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<img src="images/VPRMEDIA2_GH_35.gif" width="106" height="2" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="2" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+			<img src="images/VPRMEDIA2_GH_36.gif" width="158" height="1" alt=""></td>
+		<td colspan="3" rowspan="3">
+			<a href="VPRMEDIA2_GH06DS.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_37', 'images/VPRMEDIA2_GH_37-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_37', 'images/VPRMEDIA2_GH_37.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_37', 'images/VPRMEDIA2_GH_37-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_37', 'images/VPRMEDIA2_GH_37-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_37" src="images/VPRMEDIA2_GH_37.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td colspan="2" rowspan="6">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="5">&nbsp;			</td>
+		<td colspan="4" rowspan="3">
+			<a href="VPRMEDIA2_GH08DV.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_40', 'images/VPRMEDIA2_GH_40-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_40', 'images/VPRMEDIA2_GH_40.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_40', 'images/VPRMEDIA2_GH_40-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_40', 'images/VPRMEDIA2_GH_40-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_40" src="images/VPRMEDIA2_GH_40.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td colspan="3">
+			<img src="images/VPRMEDIA2_GH_41.gif" width="119" height="28" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="28" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="4">&nbsp;			</td>
+		<td rowspan="3">
+			<a href="VPRMEDIA2_GH07FS.html"
+				onmouseover="changeImages('VPRMEDIA2_GH_43', 'images/VPRMEDIA2_GH_43-over.gif'); return true;"
+				onmouseout="changeImages('VPRMEDIA2_GH_43', 'images/VPRMEDIA2_GH_43.gif'); return true;"
+				onmousedown="changeImages('VPRMEDIA2_GH_43', 'images/VPRMEDIA2_GH_43-over.gif'); return true;"
+				onmouseup="changeImages('VPRMEDIA2_GH_43', 'images/VPRMEDIA2_GH_43-over.gif'); return true;">
+				<img name="VPRMEDIA2_GH_43" src="images/VPRMEDIA2_GH_43.gif" width="106" height="52" border="0" alt=""></a></td>
+		<td rowspan="4">
+			<img src="images/VPRMEDIA2_GH_44.gif" width="4" height="100" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="23" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="3" rowspan="3">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="4" rowspan="2">&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="28" alt=""></td>
+	</tr>
+	<tr>
+		<td>&nbsp;			</td>
+		<td>
+			<img src="images/spacer.gif" width="1" height="48" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/spacer.gif" width="21" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="45" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="3" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="58" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="31" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="11" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="3" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="53" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="39" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="9" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="106" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="4" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="42" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="31" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="33" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="23" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="50" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="56" height="1" alt=""></td>
+		<td>
+			<img src="images/spacer.gif" width="28" height="1" alt=""></td>
+		<td></td>
+	</tr>
+</table>
+						<!-- main body -->
+						<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1" bgcolor="#ffffff">
+							<tr>
+								<td>
+									
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" height="85">
+				
+										<tr>
+										  <td height="82" bordercolor="#999999"><div align="center">
+										    <p><a href="../WEBTV/index.htm" onMouseOut="changeImages('TELEVISION PRODUCTION1', '../TEMP%20EXPORT/images/VPRMEDIA2_01_09.gif'); return true;" onMouseOver="changeImages('TELEVISION PRODUCTION1', '../ROLLOVER/images/VPRMEDIA2_01RO_09.gif'); return true;"><img src="../TEMP%20EXPORT/images/VPRMEDIA2_01_09.gif" name="TELEVISION PRODUCTION1" width="129" height="82" border="0" id="TELEVISION PRODUCTION1"></a></p>
+										    </div></td>
+									      <td><div align="center"><a href="../WEBDIS/index.htm" onMouseOut="changeImages('TELEVISION PRODUCTION2', '../TEMP%20EXPORT/images/VPRMEDIA2_01_10.gif'); return true;" onMouseOver="changeImages('TELEVISION PRODUCTION2', '../ROLLOVER/images/VPRMEDIA2_01RO_10.gif'); return true;"><img src="../TEMP%20EXPORT/images/VPRMEDIA2_01_10.gif" name="TELEVISION PRODUCTION2" width="129" height="82" border="0" id="TELEVISION PRODUCTION2"></a></div></td>
+									      <td><div align="center"><a href="../WEBCLIP/index.htm" onMouseOut="changeImages('TELEVISION PRODUCTION3', '../TEMP%20EXPORT/images/VPRMEDIA2_01_11.gif'); return true;" onMouseOver="changeImages('TELEVISION PRODUCTION3', '../ROLLOVER/images/VPRMEDIA2_01RO_11.gif'); return true;"><img src="../TEMP%20EXPORT/images/VPRMEDIA2_01_11.gif" name="TELEVISION PRODUCTION3" width="129" height="82" border="0" id="TELEVISION PRODUCTION3"></a></div></td>
+									      <td><div align="center"><a href="VPRMEDIA2_GH.html" onMouseOut="changeImages('TELEVISION PRODUCTION4', '../TEMP%20EXPORT/images/VPRMEDIA2_01_12.gif'); return true;" onMouseOver="changeImages('TELEVISION PRODUCTION4', '../ROLLOVER/images/VPRMEDIA2_01RO_12.gif'); return true;"><img src="../TEMP%20EXPORT/images/VPRMEDIA2_01_12.gif" name="TELEVISION PRODUCTION4" width="129" height="82" border="0" id="TELEVISION PRODUCTION4"></a></div></td>
+									      <td><div align="center"><a href="../WEBMR/index.htm" onMouseOut="changeImages('TELEVISION PRODUCTION', '../TEMP%20EXPORT/images/VPRMEDIA2_01_14.gif'); return true;" onMouseOver="changeImages('TELEVISION PRODUCTION', '../ROLLOVER/images/VPRMEDIA2_01RO_14.gif'); return true;"><img src="../TEMP%20EXPORT/images/VPRMEDIA2_01_14.gif" name="TELEVISION PRODUCTION" width="129" height="82" border="0"></a></div></td>
+									  </tr>
+										
+								  </table>
+									
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+										<tr>
+											<td height="29" bgcolor="#000000"><img src="/media/clear.gif" width="211" height="1"><img src="../img_dot_top.gif" width="3" height="29"></td>
+										</tr>
+										<tr>
+											<td height="85" bgcolor="#000000">
+												<table border="3" cellspacing="0" cellpadding="0" width="100%" height="1">
+													<tr bgcolor="#000000">
+														<td width="212"><img src="/media/clear.gif" width="207" height="1"><img src="../img_dot_bottom.gif" width="3" height="85"></td>
+														<td width="439" bordercolor="#000000">
+															<table border="0" cellspacing="0" cellpadding="0" width="97%" align="center" height="1">
+																
+													
+																<tr>
+																	<!-- quote -->
+																	<td width="480" bgcolor="#000000"><font color="#FFFFFF" class="cssQuote style1">VPR MEDIA IMAGE DESIGN is a comprehensive video graphics design house that can supply a full graphics package on schedule and to budget. We use a collection of full time and freelance designers and animators depending on your needs. </font></td>
+																	<!-- /quote -->
+																</tr>
+																
+																
+														  </table>
+													  </td>
+													</tr>
+											  </table>
+											</td>
+										</tr>
+										<tr>
+											<td height="1" bgcolor="#A49C90"><img src="/media/clear.gif" width="1" height="1"></td>
+										</tr>
+								  </table>
+								</td>
+							</tr>
+						</table>
+						<!-- /main body -->
+						
+					</td>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+				</tr>
+		  </table>
+	  </td>
+		<td width="40%" bgcolor="#333333"><img src="/media/clear.gif" width="1" height="36"></td>
+	</tr>
+	<!-- /nav and main body -->
+	
+	<!-- footer -->
+	<tr height="98%">
+		<td bgcolor="#CBCCD6"></td>
+		<td valign="top" bgcolor="#CBCCD6">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+				<tr>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+					<td width="646" valign="top">
+						<table border="0" cellspacing="0" cellpadding="0" width="100%" height="1">
+							<tr>
+								<td bgcolor="#ffffff"><img src="/media/clear.gif" width="1" height="4"></td>
+							</tr>
+							<tr>
+								<td><img src="/media/clear.gif" width="1" height="4"></td>
+							</tr>
+							<tr>
+								<td align="center"><font class="cssFooter">&copy; 2008 VPR MEDIA All rights Reserved.</font></td>
+							</tr>
+						</table>
+					</td>
+					<td width="4" bgcolor="#ffffff"><img src="/media/clear.gif" width="4" height="1"></td>
+				</tr>
+			</table>
+	  </td>
+		<td bgcolor="#CBCCD6"></td>
+	</tr>
+	<!-- /footer -->
+</table>
+<map name="m_nav">
+<area shape="poly" coords="613,6,643,6,643,21,613,21,613,6" href="../index.htm" >
+<area shape="poly" coords="538,6,597,6,597,21,538,21,538,6" href="../contact.htm" >
+<area shape="poly" coords="491,6,529,6,529,21,491,21,491,6" href="../news.htm" >
+<area shape="rect" coords="435,7,483,22" href="../clients.htm" >
+<area shape="rect" coords="371,6,419,21" href="../aboutus.htm" >
+<area shape="rect" coords="309,6,357,21" href="VPRMEDIA2_GH.html" >
+</map>	
+
+<!-- End ImageReady Slices -->
+</body>
+</html>

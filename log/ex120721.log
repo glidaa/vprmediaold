@@ -1,0 +1,116 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 03:06:10
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 03:06:10 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 65.52.110.191 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.vprmedia.com 200 0 64 0 268 140
+2012-07-21 03:08:14 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /news.htm - 80 - 65.52.110.191 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.vprmedia.com 200 0 64 14336 279 109
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 05:01:36
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 05:01:36 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 187
+2012-07-21 05:09:35 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 180.76.5.62 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.vprmedia.com 200 0 0 328 234 265
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 05:36:25
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 05:36:25 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 309 181 93
+2012-07-21 05:36:25 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 309 181 109
+2012-07-21 05:36:25 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 9928 159 421
+2012-07-21 05:36:25 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 9928 159 421
+2012-07-21 05:36:26 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /production.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 23727 173 453
+2012-07-21 05:36:26 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /production.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 23727 173 562
+2012-07-21 05:36:30 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 287821 175 3656
+2012-07-21 05:36:30 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 287821 175 3765
+2012-07-21 05:36:30 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBMR/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 7929 174 343
+2012-07-21 05:36:30 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBMR/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 7929 174 312
+2012-07-21 05:36:31 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBCLIP/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 13756 176 343
+2012-07-21 05:36:31 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBCLIP/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 13756 176 437
+2012-07-21 05:36:31 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET http:/www.vprmedia.com/quote/ - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 302 0 0 383 164 109
+2012-07-21 05:36:31 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET http:/www.vprmedia.com/quote/ - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 302 0 0 383 164 109
+2012-07-21 05:36:31 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 9875 168 312
+2012-07-21 05:36:31 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 9875 168 312
+2012-07-21 05:36:34 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBTV/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 176941 174 2515
+2012-07-21 05:36:34 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBTV/index.htm - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 176941 174 2562
+2012-07-21 05:36:34 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBMR/COMPANY.html - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 2787 177 125
+2012-07-21 05:36:34 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBMR/COMPANY.html - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 2787 177 109
+2012-07-21 05:36:35 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBMR/overview.html - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 3136 178 203
+2012-07-21 05:36:35 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBMR/overview.html - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 3136 178 203
+2012-07-21 05:36:35 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /GRAPHICS+HOUSE+WEB/VPRMEDIA2_GH.html - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 44092 199 687
+2012-07-21 05:36:35 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /GRAPHICS+HOUSE+WEB/VPRMEDIA2_GH.html - 80 - 176.9.50.103 HTTP/1.1 Mozilla/5.0+(compatible;+SISTRIX+Crawler;+http://crawler.sistrix.net/) - - www.vprmedia.com 200 0 0 44092 199 718
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 10:37:38
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 10:37:38 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 156
+2012-07-21 10:51:45 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 176.74.192.86 HTTP/1.0 - - - vprmedia.com 200 0 0 328 48 203
+2012-07-21 10:54:48 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 65.52.110.13 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.vprmedia.com 200 0 64 0 268 15
+2012-07-21 10:55:36 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /aboutus.htm - 80 - 65.52.110.13 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.vprmedia.com 200 0 0 16491 282 140
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 13:37:23
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 13:37:23 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 123.125.71.90 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - www.vprmedia.com 200 0 0 328 188 687
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 13:55:36
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 13:55:35 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /favicon.ico - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - - vprmedia.com 404 0 2 1795 327 296
+2012-07-21 13:55:35 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://www.google.co.in/url?sa=t&rct=j&q=creative%20child&source=web&cd=11&ved=0CIEBEBYwCg&url=http%3A%2F%2Fvprmedia.com%2FWEBDIS%2FPDFS%2FCCflyerFinal.pdf&ei=dbQKUMTrJ8PYrQfVjtnICA&usg=AFQjCNFVeghH3N9pUG3mxcc4wf8d7pmbsA vprmedia.com 200 0 64 6144 635 1125
+2012-07-21 13:55:38 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 33075 425 2046
+2012-07-21 13:57:47 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 3756035 463 129379
+2012-07-21 13:57:49 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 33083 465 1187
+2012-07-21 13:57:50 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 33083 465 1156
+2012-07-21 13:57:51 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 33083 465 1171
+2012-07-21 13:57:52 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 33083 465 1343
+2012-07-21 13:57:53 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 33083 465 1312
+2012-07-21 13:57:55 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 57431 465 2218
+2012-07-21 13:57:56 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /favicon.ico - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - - vprmedia.com 404 0 2 1795 327 281
+2012-07-21 13:59:06 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://www.google.co.in/url?sa=t&rct=j&q=creative%20child&source=web&cd=11&ved=0CIEBEBYwCg&url=http%3A%2F%2Fvprmedia.com%2FWEBDIS%2FPDFS%2FCCflyerFinal.pdf&ei=dbQKUMTrJ8PYrQfVjtnICA&usg=AFQjCNFVeghH3N9pUG3mxcc4wf8d7pmbsA vprmedia.com 206 0 64 0 697 265
+2012-07-21 13:59:06 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /favicon.ico - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - - vprmedia.com 404 0 2 1795 327 281
+2012-07-21 13:59:06 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 1025 465 468
+2012-07-21 13:59:06 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 853 465 296
+2012-07-21 13:59:07 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 625 465 546
+2012-07-21 13:59:07 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/CCflyerFinal.pdf - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - http://vprmedia.com/WEBDIS/PDFS/CCflyerFinal.pdf vprmedia.com 206 0 0 797 465 281
+2012-07-21 13:59:07 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /favicon.ico - 80 - 117.196.143.15 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1)+AppleWebKit/536.11+(KHTML,+like+Gecko)+Chrome/20.0.1132.57+Safari/536.11 - - vprmedia.com 404 0 2 1795 327 281
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 14:41:02
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 14:41:01 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 100.43.83.137 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.vprmedia.com 200 0 0 309 186 140
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 15:07:40
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 15:07:39 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 100.43.83.137 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.vprmedia.com 200 0 0 9875 273 437
+2012-07-21 15:19:21 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 66.249.72.211 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.vprmedia.com 200 0 0 309 266 15
+2012-07-21 15:19:22 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /GRAPHICS+HOUSE+WEB/VPRMEDIA2_GH03AS.html - 80 - 66.249.72.211 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.vprmedia.com 200 0 0 14301 274 109
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 15:49:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 15:49:59 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 15
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 20:47:12
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 20:47:12 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /WEBDIS/PDFS/carboatflyer.pdf - 80 - 46.229.160.208 HTTP/1.1 Mozilla/5.0+(Macintosh;+U;+Intel+Mac+OS+X+10_5_3;+hu-hu)+AppleWebKit/525.18+(KHTML,+like+Gecko)+Version/3.1.1+Safari/525.20 - - www.vprmedia.com 200 0 64 2048 309 109
+2012-07-21 20:47:32 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 208.115.111.73 HTTP/1.1 Mozilla/5.0+(compatible;+Ezooms/1.0;+ezooms.bot@gmail.com) - - www.vprmedia.com 200 0 0 309 191 93
+2012-07-21 20:56:28 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 64.246.161.190 HTTP/1.0 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en;+rv:1.9.0.13)+Gecko/2009073022+Firefox/3.5.2+(.NET+CLR+3.5.30729)+SurveyBot/2.3+(DomainTools) - - www.vprmedia.com 200 0 0 328 289 93
+2012-07-21 20:56:28 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 64.246.161.190 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+en;+rv:1.9.0.13)+Gecko/2009073022+Firefox/3.5.2+(.NET+CLR+3.5.30729)+SurveyBot/2.3+(DomainTools) - http://whois.domaintools.com/vprmedia.com www.vprmedia.com 200 0 0 9928 478 343
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 21:15:37
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 21:15:37 W3SVC6223 VM2K3-WEB1 10.49.39.150 HEAD /index.htm - 80 - 65.36.241.79 HTTP/1.1 InternetSeer.com - - www.vprmedia.com 200 0 0 321 92 15
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 21:39:30
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 21:39:29 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /index.htm - 80 - 208.115.111.73 HTTP/1.1 Mozilla/5.0+(compatible;+Ezooms/1.0;+ezooms.bot@gmail.com) - - www.vprmedia.com 200 0 0 9928 181 218
+2012-07-21 21:55:02 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 180.76.5.100 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - vprmedia.com 200 0 0 328 230 250
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-07-21 23:16:27
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-07-21 23:16:27 W3SVC6223 VM2K3-WEB1 10.49.39.150 GET /robots.txt - 80 - 208.115.111.73 HTTP/1.1 Mozilla/5.0+(compatible;+Ezooms/1.0;+ezooms.bot@gmail.com) - - www.vprmedia.com 200 0 0 309 191 78

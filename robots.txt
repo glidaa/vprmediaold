@@ -1,0 +1,3 @@
+
+User-agent: *
+SITEMAP: http://www.vprmedia.com/Sitemap.xml
